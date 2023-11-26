@@ -1,15 +1,29 @@
-import React from "react"
+import WeightInput from "./WeightInput"
 
 const FrontLegsWorkout = () => {
   return (
     <ul>
-      <li>לחיצת רגליים במכונה או מתקן - רחב</li>
-      <li>קירוב רגליים במכונה</li>
-      <li>הרחקת רגליים במכונה</li>
-      <li>סקוואט במתקן - וי סקוואט</li>
-      <li>לחיצת רגל לאחור במכונה</li>
-      <li>היפטראסט</li>
-      <li>פשיטת ברכיים במכונה</li>
+      <li>
+        לחיצת רגליים במכונה או מתקן - רחב <WeightInput />
+      </li>
+      <li>
+        קירוב רגליים במכונה <WeightInput />
+      </li>
+      <li>
+        הרחקת רגליים במכונה <WeightInput />
+      </li>
+      <li>
+        סקוואט במתקן - וי סקוואט <WeightInput />
+      </li>
+      <li>
+        לחיצת רגל לאחור במכונה <WeightInput />
+      </li>
+      <li>
+        היפטראסט <WeightInput />
+      </li>
+      <li>
+        פשיטת ברכיים במכונה <WeightInput />
+      </li>
     </ul>
   )
 }

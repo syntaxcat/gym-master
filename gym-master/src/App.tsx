@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import {useState} from "react"
 import "./App.css"
 import BackLegsWorkout from "./components/BackLegsWorkout"
 import ChestAndArmsWorkout from "./components/ChestAndArmsWorkout"
@@ -20,8 +20,8 @@ function App() {
   return (
     <>
       <header>
-        <h1>gym-master</h1>
-        <ul>
+        <h1 className="logo">gym-master</h1>
+        <ul className="mainList">
           <li
             onClick={() => {
               setSelectedWorkoutDay(WorkoutDay.BackLegs)
