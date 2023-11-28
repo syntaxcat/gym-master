@@ -23,6 +23,11 @@ function App() {
         <h1 className="logo">gym-master</h1>
         <ul className="mainList">
           <li
+            className={
+              selectedWorkoutDay === WorkoutDay.BackLegs
+                ? "selectedLiBackground"
+                : ""
+            }
             onClick={() => {
               setSelectedWorkoutDay(WorkoutDay.BackLegs)
             }}
@@ -30,6 +35,11 @@ function App() {
             רגל אחורית
           </li>
           <li
+            className={
+              selectedWorkoutDay === WorkoutDay.ChestArms
+                ? "selectedLiBackground"
+                : ""
+            }
             onClick={() => {
               setSelectedWorkoutDay(WorkoutDay.ChestArms)
             }}
@@ -37,6 +47,11 @@ function App() {
             חזה & ידיים
           </li>
           <li
+            className={
+              selectedWorkoutDay === WorkoutDay.BackShoulders
+                ? "selectedLiBackground"
+                : ""
+            }
             onClick={() => {
               setSelectedWorkoutDay(WorkoutDay.BackShoulders)
             }}
@@ -44,6 +59,11 @@ function App() {
             גב & כתפיים
           </li>
           <li
+            className={
+              selectedWorkoutDay === WorkoutDay.FrontLegs
+                ? "selectedLiBackground"
+                : ""
+            }
             onClick={() => {
               setSelectedWorkoutDay(WorkoutDay.FrontLegs)
             }}

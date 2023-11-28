@@ -3,6 +3,25 @@
   justify-content: center;
 }
 
+.mainList {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
 .mainList li {
   cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.mainList li:first-child {
+  border-right: 1px solid black;
+}
+
+.selectedLiBackground {
+  background-color: lightgrey;
 }
